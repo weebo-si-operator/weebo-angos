@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.4](https://github.com/weebo-si-operator/weebo-angos/compare/761049d258fe54bfc040d7ad73b435a9041157bf..v0.3.4) - 2026-11-06
+#### Miscellaneous Chores
+- (**deps**) weebo-operator-kit v0.28.1 - ([761049d](https://github.com/weebo-si-operator/weebo-angos/commit/761049d258fe54bfc040d7ad73b435a9041157bf)) - Max Batleforc, Claude Opus 5.5
+
+- - -
+
 ## [v0.3.3](https://github.com/batleforc/weebo-angos/compare/c7d853eb8a628a403e918fbd441d45b65bd5a65e..v0.3.3) - 2026-11-06
 #### Continuous Integration
 - move to the weebo-si-operator GitHub org - ([c7d853e](https://github.com/batleforc/weebo-angos/commit/c7d853eb8a628a403e918fbd441d45b65bd5a65e)) - Max Batleforc, Claude Opus 5.5
