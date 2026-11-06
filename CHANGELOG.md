@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.3](https://github.com/batleforc/weebo-angos/compare/c7d853eb8a628a403e918fbd441d45b65bd5a65e..v0.3.3) - 2026-11-06
+#### Continuous Integration
+- move to the weebo-si-operator GitHub org - ([c7d853e](https://github.com/batleforc/weebo-angos/commit/c7d853eb8a628a403e918fbd441d45b65bd5a65e)) - Max Batleforc, Claude Opus 5.5
+
+- - -
+
 ## [v0.3.2](https://github.com/weebo-si-operator/weebo-angos/compare/5ab36861ecd816de37526ecf7f72d06027f8e5c4..v0.3.2) - 2026-10-29
 #### Bug Fixes
 - (**application**) null what left the status, a merge patch keeps it (#23) - ([5ab3686](https://github.com/weebo-si-operator/weebo-angos/commit/5ab36861ecd816de37526ecf7f72d06027f8e5c4)) - Maxime, Claude Opus 5.5
