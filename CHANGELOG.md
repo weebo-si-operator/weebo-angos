@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.4.0](https://github.com/weebo-si-operator/weebo-angos/compare/9513232a73a1cf6c72f9346d6b770f8c0a9708f0..v0.4.0) - 2026-11-06
+#### Features
+- (**vault**) additional mounts in other Vault namespaces (kit v0.29.0) - ([9513232](https://github.com/weebo-si-operator/weebo-angos/commit/9513232a73a1cf6c72f9346d6b770f8c0a9708f0)) - Max Batleforc, Claude Opus 5.5
+
+- - -
+
 ## [v0.3.5](https://github.com/weebo-si-operator/weebo-angos/compare/28a880d26a959547c836ad43b11bec403f828e48..v0.3.5) - 2026-11-06
 #### Continuous Integration
 - accept CVE-2026-84243 (glibc of the core runtime) until 2026-12-06 - ([28a880d](https://github.com/weebo-si-operator/weebo-angos/commit/28a880d26a959547c836ad43b11bec403f828e48)) - Max Batleforc, Claude Opus 5.5
