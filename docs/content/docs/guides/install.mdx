@@ -3,13 +3,13 @@ title: Install via Helm
 description: Bring up the operator with its chart.
 ---
 
-The chart lives at `oci://ghcr.io/batleforc/charts/weebo-angos`. It
+The chart lives at `oci://ghcr.io/weebo-si-operator/charts/weebo-angos`. It
 needs [cert-manager](https://cert-manager.io) for the certificate of the
 operator's HTTPS server (probes and admission webhooks).
 
 ```bash
 helm install weebo-angos \
-  oci://ghcr.io/batleforc/charts/weebo-angos \
+  oci://ghcr.io/weebo-si-operator/charts/weebo-angos \
   --namespace weebo-angos --create-namespace \
   --version <version>
 ```
@@ -39,7 +39,7 @@ capability, and its pods read only Secrets labelled
 `angos.weebo.io/credential: "true"`. Add your mirror to the list:
 
 ```bash
-helm upgrade weebo-angos oci://ghcr.io/batleforc/charts/weebo-angos \
+helm upgrade weebo-angos oci://ghcr.io/weebo-si-operator/charts/weebo-angos \
   --reuse-values \
   --set 'managedInstances.allowedImages={registry.example.com/project-angos/angos}'
 ```

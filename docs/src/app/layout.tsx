@@ -10,7 +10,7 @@ import { site } from '@/lib/shared';
 // override via NEXT_PUBLIC_SITE_URL for a custom domain.
 export const metadata: Metadata = siteMetadata(
   site,
-  new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://batleforc.github.io/weebo-angos'),
+  new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://weebo-si-operator.github.io/weebo-angos'),
 );
 
 // The pairing of the weebo sites: a square-pixel display face for identity and scale,

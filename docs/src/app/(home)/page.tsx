@@ -13,7 +13,7 @@ export default function HomePage() {
         { href: '/docs/ide', label: 'Access the CRD IDE' },
       ]}
       install={`helm install weebo-angos \\
-  oci://ghcr.io/batleforc/charts/weebo-angos \\
+  oci://ghcr.io/weebo-si-operator/charts/weebo-angos \\
   --namespace weebo-angos --create-namespace \\
   --set certManager.issuerRef.name=<issuer>`}
       example={{

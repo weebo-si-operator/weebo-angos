@@ -48,7 +48,7 @@ USER 65532:65532
 
 LABEL org.opencontainers.image.title="weebo-angos-operator" \
       org.opencontainers.image.description="Kubernetes operator managing Angos objects as CRDs" \
-      org.opencontainers.image.source="https://github.com/batleforc/weebo-angos" \
+      org.opencontainers.image.source="https://github.com/weebo-si-operator/weebo-angos" \
       org.opencontainers.image.licenses="Apache-2.0" \
       org.opencontainers.image.vendor="batleforc"
 

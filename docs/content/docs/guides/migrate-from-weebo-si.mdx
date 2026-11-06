@@ -17,7 +17,7 @@ cluster.
 ```bash
 helm get values --all -o yaml angos -n angos > values.yaml
 docker run --rm -i --entrypoint /usr/local/bin/weebo-angos-importer \
-  ghcr.io/batleforc/weebo-angos-operator:<version> \
+  ghcr.io/weebo-si-operator/weebo-angos-operator:<version> \
   --values - --namespace angos < values.yaml > angos.yaml
 ```
 

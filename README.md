@@ -2,7 +2,7 @@
 
 Kubernetes operator running [Angos](https://github.com/project-angos/angos)
 OCI registries, built on
-[weebo-operator-kit](https://github.com/batleforc/weebo-operator-kit).
+[weebo-operator-kit](https://github.com/weebo-si-operator/weebo-operator-kit).
 Angos has no administration API: the operator renders its configuration,
 runs its workload, and reads what the pods did with it in their logs.
 
