@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.0](https://github.com/weebo-si-operator/weebo-angos/compare/6c5090362d4009605cb9e5d0d292e5ae20ed9c26..v0.5.0) - 2026-11-14
+#### Features
+- (**chart**) networkPolicy.kind CiliumNetworkPolicy (kit v0.32.0) - ([a176f04](https://github.com/weebo-si-operator/weebo-angos/commit/a176f040bf7106b9ec670610a2c91d33470e21a3)) - Max Batleforc, Claude Opus 5.5
+#### Bug Fixes
+- (**image**) core-runtime base with libgcc 16.2.1-3.2 - ([6c50903](https://github.com/weebo-si-operator/weebo-angos/commit/6c5090362d4009605cb9e5d0d292e5ae20ed9c26)) - Max Batleforc, Claude Opus 5.5
+
+- - -
+
 ## [v0.4.0](https://github.com/weebo-si-operator/weebo-angos/compare/9513232a73a1cf6c72f9346d6b770f8c0a9708f0..v0.4.0) - 2026-11-06
 #### Features
 - (**vault**) additional mounts in other Vault namespaces (kit v0.29.0) - ([9513232](https://github.com/weebo-si-operator/weebo-angos/commit/9513232a73a1cf6c72f9346d6b770f8c0a9708f0)) - Max Batleforc, Claude Opus 5.5
